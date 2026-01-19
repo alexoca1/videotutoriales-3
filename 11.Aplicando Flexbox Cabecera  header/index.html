@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplicación práctica de flexbox. ( Barra de navegación )</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+      * {
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Oswald", sans-serif;
+      }
+
+      nav {
+        background-color: midnightblue;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        list-style-type: none;
+      }
+      nav a:hover {
+        color: red;
+        font-weight: bold;
+        text-shadow: 3px 3px 5px white;
+      }
+      header {
+        background-image: url("./imagenes/business.jpg");
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #titular{
+        text-align: center;
+      }
+       #titular h1 {
+        color: white;
+        text-shadow: 3px 3px 5px black;
+        font-size: 3em;
+      }
+      #titular h2 {
+        color: orange;
+        text-shadow: 3px 3px 5px black;
+      }
+      section#nuestros-clientes {
+        text-align: center;
+        padding: 20px;
+      }
+      section#nuestros-clientes img {
+        border-radius: 50%;
+      }
+      section#nuestros-clientes h1 {
+        color: white;
+        text-shadow: 3px 3px 5px black;
+      }
+
+      .titulo {
+        color: purple;
+        font-size: 0.9em;
+      }
+      footer {
+        background-color: grey;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <a href="#">Quienes somos</a>
+      <a href="#">Consultoria</a>
+      <a href="#">Diseño Web</a>
+      <a href="#">Donde estamos</a>
+      <a href="#">Contacto</a>
+    </nav>
+    <header>
+      <div id="titular">
+        <h1>Bosco Business</h1>
+        <h2>Tu puerta al futuro</h2>
+      </div>
+    </header>
+    <section id="nuestros-clientes">
+      <h2 class="titulo">Nuestros clientes</h2>
+      <img src="./imagenes/chica.jpg" alt="" />
+      <h4>Bosco Business es la solucion para mi empresa</h4>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates,
+        officia laudantium. Velit nulla numquam illum unde distinctio corporis
+        esse adipisci quidem! Tenetur est ad voluptatibus nihil, sapiente
+        corporis natus vero!
+      </p>
+    </section>
+    <footer>
+      <p>&copy;2026 Bosco Design</p>
+    </footer>
+  </body>
+</html>

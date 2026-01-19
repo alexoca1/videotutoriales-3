@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación práctica de flexbox. ( Barra de navegación )</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+}
+
+nav {
+background-color: midnightblue;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+     display: flex;    
+    justify-content: space-around;
+     
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;   
+   }
+   nav a:hover{
+    color: red;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px white;
+   }
+</style>
+</head>
+
+<body>
+    <nav>
+       
+            <a href="#">Quienes somos</a>
+            <a href="#">Consultoria</a>
+            <a href="#">Diseño Web</a>
+            <a href="#">Donde estamos</a>
+            <a href="#">Contacto</a>
+       
+    </nav>
+    
+</body>
+
+</html>

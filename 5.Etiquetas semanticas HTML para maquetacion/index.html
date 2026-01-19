@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etiquetas semánticas HTML</title>
+    <style type="text/css">
+
+*{
+    margin: 0;
+}
+header{
+    background-color: lightskyblue;
+    height: 150px;
+}
+nav{
+    background-color: red;
+    color: yellow;
+    text-align: right;
+    
+}
+nav li{
+    display: inline-block;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: yellow;
+
+}
+nav a:hover{
+  color:blue ;
+  font-weight: bold;
+}
+main{
+    background-color: pink;
+    height: 400px;
+}
+section{
+    background-color: lightgreen;
+    width: 60%;
+    float: left;
+    height: 100%;
+}
+article{
+    background-color: antiquewhite;
+    height: 50%;
+}
+aside{
+    width: 40%;
+    background-color: lightgrey;
+    float: left;
+    height: 100%;
+}
+footer{
+    background-color: grey;
+    width: 100%;
+    text-align: center;
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Distribucion Perez</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="/">Quienes somos</a></li>
+        <li><a href="/">Tiendas</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="novedades">
+        <article>
+          <h2>Nuevos taladros BOSCH</h2>
+          <p>Han llegado unso estupendos taladros mas potentes y economicos</p>
+        </article>
+        <article>
+          <h2>Rebajas en mobiliario</h2>
+          <p>
+            este mes obtenga un 20% de descuento con su carnet de socio
+          </p>
+        </article>
+      </section>
+      <aside>
+        <p>Visite nuestra nuev atienda</p>
+      </aside>
+    </main>
+    <footer>
+        <p>
+            (c)Distribucion
+        </p>
+    </footer>
+  </body>
+</html>

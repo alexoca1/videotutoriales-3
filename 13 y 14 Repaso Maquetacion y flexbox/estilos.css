@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+header {
+    background-image: url('./images/dibujo-tecnico.jpg');
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.titulo {
+    color: brown;
+    text-align: center;
+}
+
+#caja-central {
+    text-align: center;
+}
+
+header h1 {
+    color: yellow;
+    font-size: 3em;
+    text-shadow: 3px 3px 3px black;
+}
+
+section h2 {
+    text-align: center;
+    color: brown;
+    margin: 20px;
+}
+
+#caja-somos {
+    display: flex;
+    margin: 20px;
+
+}
+
+#izq {
+    width: 50%;
+    margin: 20px;
+
+}
+
+#der {
+    width: 50%;
+    margin: 20px;
+}
+
+#der img {
+    width: 80%;
+}
+
+#obras {
+    background-color: bisque;
+}
+
+#caja-obras {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#caja-obras article {
+    width: 30%;
+}
+
+#caja-obras h5 {
+    text-align: center;
+}
+
+#caja-obras article img {
+    height: 200px;
+    width: 100%;
+
+}
+
+footer {
+    background-color: grey;
+    color: white;
+    padding: 15px;
+}
+
+footer p {
+
+    text-align: center;
+}
+
+footer #linea-footer {
+    background-color: white;
+    height: 2px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+
+footer #caja-enlaces {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+}
+
+#enlaces {
+    width: 300px;
+    text-align: center;
+}
+
+#enlaces li {
+    list-style: none;
+    margin: 5px;
+}
+
+#enlaces ul {
+    display: flex;
+    justify-content: center;
+}
+
+#direccion {
+    width: 300px;
+}
+
+#direccion p {
+    padding: 0;
+    text-align: center;
+}
+
+#email {
+    width: 300px;
+}
+
+#email a {
+    display: block;
+}
